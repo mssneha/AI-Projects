@@ -334,7 +334,6 @@ def remDups(p_rule):
 	rem = []
 	for p in range(0, n):
 		y.append(set(splitRules("|", [l[p]])))
-
 	for p in range(0, n):
 		z = set(splitRules("|", [l[p]]))
 		for q in range(p + 1, n):
