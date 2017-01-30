@@ -219,7 +219,6 @@ def A_MAX_VAL(board_state, level, alpha, beta):
 				alpha = max(alpha, val)
 	return val
 
-	
 #Min function
 def A_MIN_VAL(board_state, level, alpha, beta):
 	if level == depth or (not blank_spaces(board_state)):
